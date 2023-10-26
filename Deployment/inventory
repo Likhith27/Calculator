@@ -1,1 +1,1 @@
-localhost ansible_connection=root
+localhost ansible_connection=local
