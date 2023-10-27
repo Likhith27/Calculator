@@ -7,4 +7,4 @@
     - name: Pull image
       shell: docker pull likhith28/calculator:latest
     - name: Running container
-      shell: docker run -it -d --name Unscientific likhith28/calculator
+      shell: docker run -it -d --name scientific likhith28/calculator
