@@ -20,7 +20,7 @@ public class Main {
             System.out.println(" ");
             System.out.println("1. Square root");
             System.out.println("2. Factorial");
-            System.out.println("3. Natural Log");
+            System.out.println("3. Natual Log");
             System.out.println("4. Power");
             System.out.println("5. Exit");
             System.out.println(" ");
