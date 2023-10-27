@@ -3,15 +3,8 @@
   hosts: all
   vars:
     ansible_python_interpreter: /usr/bin/python3
-#    ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull image
-      docker_image:
-        name: likhith28/calculator:latest
-        source: pull
-    - name: Start docker service
-      service:
-        name: docker
-        state: started
+      shell: docker pull likhith28/calculator:latest
     - name: Running container
-      shell: docker run -it -d --name Likith_Calculator likhith28/calculator
+      shell: docker run -it -d --name Unscientific likhith28/calculator
